@@ -1,0 +1,44 @@
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 40px 0 56px;
+}
+
+.code {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--cs-rust);
+  border: 1px solid var(--cs-rust);
+  padding: 5px 10px;
+  border-radius: 2px;
+}
+
+.title {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--cs-amber-bright);
+}
+
+.copy {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--cs-amber);
+  max-width: 48ch;
+}
+
+.back {
+  margin-top: 8px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+  color: var(--cs-mid-gray);
+  transition: color 160ms ease;
+}
+
+.back:hover {
+  color: var(--cs-rust);
+}

@@ -1,0 +1,104 @@
+.about {
+  padding: 6px 0 8px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+
+.heading {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: lowercase;
+  color: var(--cs-amber-bright);
+  margin-bottom: 22px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--cs-strip-divider);
+}
+
+.para {
+  font-size: 15px;
+  line-height: 1.85;
+  color: var(--cs-amber);
+  margin-bottom: 18px;
+  max-width: 64ch;
+}
+
+.signoff {
+  margin-top: 26px;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--cs-mid-gray);
+}
+
+.annotations {
+  position: sticky;
+  top: 24px;
+  border-left: 1px solid var(--cs-strip-divider);
+  padding-left: 22px;
+}
+
+.annHead {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: lowercase;
+  color: var(--cs-rust);
+  margin-bottom: 16px;
+}
+
+.annList {
+  display: grid;
+  gap: 16px;
+}
+.annRow {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.annLabel {
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: lowercase;
+  color: var(--cs-mid-gray);
+}
+.annValue {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--cs-amber);
+}
+
+.contactLink {
+  display: inline-block;
+  margin-top: 26px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+  color: var(--cs-amber-bright);
+  border-bottom: 1px solid var(--cs-strip-divider);
+  padding-bottom: 3px;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+.contactLink:hover {
+  color: var(--cs-rust);
+  border-color: var(--cs-rust);
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .annotations {
+    position: static;
+    border-left: none;
+    border-top: 1px solid var(--cs-strip-divider);
+    padding-left: 0;
+    padding-top: 22px;
+  }
+}

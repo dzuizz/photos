@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "animals",
+    "name": "animals",
+    "description": "ai migatito miao miao"
+  },
+  {
+    "slug": "flying",
+    "name": "flying",
+    "description": "on cloud nine"
+  },
+  {
+    "slug": "transit",
+    "name": "transit",
+    "description": "the things that move us everyday"
+  },
+  {
+    "slug": "architecture",
+    "name": "architecture",
+    "description": "man-made yet nature-like"
+  },
+  {
+    "slug": "dark",
+    "name": "dark",
+    "description": "dark"
+  }
+]

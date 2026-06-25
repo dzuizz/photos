@@ -1,0 +1,147 @@
+[
+  {
+    "id": "indonesia-2606",
+    "label": "INDONESIA ・ JUNE 2026",
+    "filmStock": "Sony α6400",
+    "shootDate": "2026-06-13",
+    "location": "singapore → surabaya",
+    "frames": [
+      {
+        "id": "in-01",
+        "frameNum": "01",
+        "src": "/photos/indonesia/d1-jpeg100-1.jpg",
+        "caption": "fish",
+        "location": "changi airport",
+        "shootDate": "2026-06-13",
+        "filmStock": "35mm · ƒ/3.2 · 1/4000s · ISO 3200",
+        "camera": "Sony α6400",
+        "lens": "Sony E 35mm F1.8 OSS",
+        "series": [
+          "dark"
+        ],
+        "isFeatured": false
+      },
+      {
+        "id": "in-02",
+        "frameNum": "02",
+        "src": "/photos/indonesia/d1-jpeg100-2.jpg",
+        "caption": "cold yet warm",
+        "location": "above Java",
+        "shootDate": "2026-06-13",
+        "filmStock": "35mm · ƒ/1.8 · 1/4000s · ISO 125",
+        "camera": "Sony α6400",
+        "lens": "Sony E 35mm F1.8 OSS",
+        "series": [
+          "flying"
+        ],
+        "isFeatured": true
+      },
+      {
+        "id": "in-03",
+        "frameNum": "03",
+        "src": "/photos/indonesia/d1-jpeg100-3.jpg",
+        "caption": "river flows in you",
+        "location": "above java",
+        "shootDate": "2026-06-13",
+        "filmStock": "80mm · ƒ/5.6 · 1/400s · ISO 100",
+        "camera": "Sony α6400",
+        "lens": "Sony E 18-200mm F3.5-6.3 OSS",
+        "series": [
+          "flying"
+        ],
+        "isFeatured": false
+      },
+      {
+        "id": "in-04",
+        "frameNum": "04",
+        "src": "/photos/indonesia/d1-jpeg100-4.jpg",
+        "caption": "paddies",
+        "location": "above java",
+        "shootDate": "2026-06-13",
+        "filmStock": "65mm · ƒ/14 · 1/400s · ISO 640",
+        "camera": "Sony α6400",
+        "lens": "Sony E 18-200mm F3.5-6.3 OSS",
+        "series": [
+          "flying"
+        ],
+        "isFeatured": false
+      },
+      {
+        "id": "in-05",
+        "frameNum": "05",
+        "src": "/photos/indonesia/d1-jpeg100-5.jpg",
+        "caption": "a dystopia?",
+        "location": "above surabaya",
+        "shootDate": "2026-06-13",
+        "filmStock": "200mm · ƒ/11 · 1/320s · ISO 320",
+        "camera": "Sony α6400",
+        "lens": "Sony E 18-200mm F3.5-6.3 OSS",
+        "series": [
+          "flying",
+          "architecture"
+        ],
+        "isFeatured": false
+      },
+      {
+        "id": "in-06",
+        "frameNum": "06",
+        "src": "/photos/indonesia/d1-jpeg100-6.jpg",
+        "caption": "blue skies",
+        "location": "juanda, surabaya",
+        "shootDate": "2026-06-13",
+        "filmStock": "20mm · ƒ/11 · 1/200s · ISO 320",
+        "camera": "Sony α6400",
+        "lens": "Sony E 18-200mm F3.5-6.3 OSS",
+        "series": [
+          "transit"
+        ],
+        "isFeatured": true
+      },
+      {
+        "id": "in-07",
+        "frameNum": "07",
+        "src": "/photos/indonesia/car-1.jpg",
+        "caption": "is that indomaret i see",
+        "location": "surabaya",
+        "shootDate": "2026-06-15",
+        "filmStock": "18mm · ƒ/22 · 1/10s · ISO 100",
+        "camera": "Sony α6400",
+        "lens": "Sony E 18-200mm F3.5-6.3 OSS",
+        "series": [
+          "transit"
+        ],
+        "isFeatured": false
+      },
+      {
+        "id": "in-08",
+        "frameNum": "08",
+        "src": "/photos/indonesia/car-2.jpg",
+        "caption": "vroom vroom",
+        "location": "surabaya",
+        "shootDate": "2026-06-18",
+        "filmStock": "27mm · ƒ/9 · 1/10s · ISO 2000",
+        "camera": "Sony α6400",
+        "lens": "Sony E 18-200mm F3.5-6.3 OSS",
+        "series": [
+          "transit"
+        ],
+        "isFeatured": false
+      },
+      {
+        "id": "in-09",
+        "frameNum": "09",
+        "src": "/photos/indonesia/home-1.jpg",
+        "caption": "meow",
+        "location": "at home",
+        "shootDate": "2026-06-20",
+        "filmStock": "200mm · ƒ/6.3 · 1/80s · ISO 640",
+        "camera": "Sony α6400",
+        "lens": "Sony E 18-200mm F3.5-6.3 OSS",
+        "series": [
+          "animals"
+        ],
+        "isFeatured": true
+      }
+    ]
+  }
+]

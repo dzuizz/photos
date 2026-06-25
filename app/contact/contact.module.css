@@ -1,0 +1,52 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 720px;
+  padding: 6px 0 4px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.heading {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: lowercase;
+  color: var(--cs-amber-bright);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--cs-strip-divider);
+}
+
+.lede {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--cs-amber);
+  max-width: 60ch;
+}
+
+.channels {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+}
+.channel {
+  color: var(--cs-amber-bright);
+  border-bottom: 1px solid var(--cs-strip-divider);
+  padding-bottom: 2px;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+.channel:hover {
+  color: var(--cs-rust);
+  border-color: var(--cs-rust);
+}
+.dot {
+  color: var(--cs-mid-gray);
+}

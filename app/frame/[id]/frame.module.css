@@ -1,0 +1,141 @@
+.detail {
+  padding-top: 4px;
+}
+
+.back {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+  color: var(--cs-mid-gray);
+  transition: color 160ms ease;
+}
+.back:hover {
+  color: var(--cs-rust);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 28px;
+  align-items: start;
+}
+
+.imageWrap {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--cs-strip-divider);
+  filter: contrast(1.05);
+  box-shadow: 0 24px 50px -28px rgba(0, 0, 0, 0.85);
+}
+
+.imageTag {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  padding: 3px 7px;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  color: var(--cs-amber-bright);
+  background: rgba(13, 11, 9, 0.7);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-top: 2px;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--cs-amber-bright);
+}
+
+.fields {
+  display: grid;
+  gap: 12px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.fieldLabel {
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: lowercase;
+  color: var(--cs-mid-gray);
+}
+.fieldValue {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: var(--cs-amber);
+}
+
+.seriesRow {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.seriesLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.seriesLink {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+  color: var(--cs-amber);
+  border: 1px solid var(--cs-strip-divider);
+  padding: 4px 9px;
+  border-radius: 2px;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+.seriesLink:hover {
+  color: var(--cs-rust);
+  border-color: var(--cs-rust);
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 6px;
+  padding-top: 16px;
+  border-top: 1px solid var(--cs-strip-divider);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+}
+.step {
+  color: var(--cs-amber);
+  transition: color 160ms ease;
+}
+.step:hover {
+  color: var(--cs-rust);
+}
+.stepDisabled {
+  color: var(--cs-strip-divider);
+}
+.stepDivider {
+  color: var(--cs-rust);
+  font-size: 10px;
+}
+
+@media (max-width: 899px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

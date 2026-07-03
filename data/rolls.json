@@ -149,7 +149,23 @@
           "animals"
         ],
         "isFeatured": true,
-        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGAwX/xAAgEAACAQQCAwEAAAAAAAAAAAABAwIABBFBITESEyKB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwEC/8QAGhEAAwADAQAAAAAAAAAAAAAAAAECAyExEv/aAAwDAQACEQMRAD8A6VwJ3luxaMMGQfk4H5U65cmMJBxzzmnLG+M0EMn68AYBOutUwy8sUTEXLgz5GJy2d0GNXK0yelS7smlun491uWeQBlGJ42OqKK1fGAz/2Q=="
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMGBAX/xAAhEAABBAICAgMAAAAAAAAAAAABAAIDEQQhEzEiQRJRgf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAwT/xAAaEQEAAgMBAAAAAAAAAAAAAAABAAIDEjEh/9oADAMBAAIRAxEAPwDoz8mZjyRwDkFg+Jofinpo3SSOINb3f2tuFml8BD3cdAUCaFdek+TLwYHhszGSeIp7j2d2s+MsHjDYsdk3HM8N7TzJ8gC5rTr2OkITvxkGf//Z"
+      },
+      {
+        "id": "in-10",
+        "frameNum": "10",
+        "src": "/photos/indonesia/0307-2.jpg",
+        "caption": "rawr",
+        "location": "zoooooooooo",
+        "shootDate": "2026-06-26",
+        "filmStock": "200mm · ƒ/6.3 · 1/200s · ISO 4000",
+        "camera": "Sony α6400",
+        "lens": "Sony E 18-200mm F3.5-6.3 OSS",
+        "series": [
+          "animals"
+        ],
+        "isFeatured": true,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQAD/8QAIhAAAgEEAQQDAAAAAAAAAAAAAQIDAAQREgUTITFhFEFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAD/8QAGREAAgMBAAAAAAAAAAAAAAAAABEBAhIT/9oADAMBAAIRAxEAPwDCS8kCYZxppnpgnuPfukuO5Q3i6FlQ/Y8gCgHi+RGrbak9wcdxSfGW0dnCGXLGR2DZ8HBwM0ExWVIHVlwW1CsM/tVEX9xdQzgRT6gqCRoPNVWTPpJ//9k="
       }
     ]
   }

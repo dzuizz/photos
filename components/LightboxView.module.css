@@ -209,6 +209,12 @@
   .overlay {
     padding: 16px;
   }
+  .stage {
+    flex: 0 0 auto;
+  }
+  .figure {
+    height: auto;
+  }
   .img {
     max-width: 94vw;
     max-height: 60vh;

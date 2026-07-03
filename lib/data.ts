@@ -35,6 +35,7 @@ function hydrateFrame(raw: RawFrame, rollId: string): Frame {
     lens: raw.lens,
     series: raw.series ?? [],
     isFeatured: raw.isFeatured ?? false,
+    blurDataURL: raw.blurDataURL,
   };
 }
 

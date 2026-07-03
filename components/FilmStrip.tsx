@@ -38,7 +38,7 @@ export default function FilmStrip({
               isSelected={selectedFrames.has(frame.id)}
               onOpen={onOpen}
               onToggle={onToggle}
-              priority={startIndex + i < 8}
+              priority={startIndex + i < 3}
             />
           ))}
           {/* spacers */}

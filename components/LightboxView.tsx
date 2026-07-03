@@ -128,7 +128,9 @@ export default function LightboxView({
               alt={`${frame.caption}, ${frame.location}`}
               width={frame.width}
               height={frame.height}
-              sizes="(max-width: 900px) 94vw, 78vw"
+              sizes="(max-width: 900px) 94vw, min(80vw, 1100px)"
+              placeholder={frame.blurDataURL ? "blur" : "empty"}
+              blurDataURL={frame.blurDataURL}
               priority
             />
           </figure>

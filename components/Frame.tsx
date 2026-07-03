@@ -108,8 +108,10 @@ export default function Frame({
           src={frame.thumb}
           alt={alt}
           fill
-          sizes="(max-width: 560px) 100vw, (max-width: 900px) 50vw, 34vw"
+          sizes="(max-width: 560px) 100vw, (max-width: 900px) 50vw, (max-width: 1180px) 34vw, 400px"
           priority={priority}
+          placeholder={frame.blurDataURL ? "blur" : "empty"}
+          blurDataURL={frame.blurDataURL}
           draggable={false}
         />
         <span className={styles.scrim} aria-hidden="true" />

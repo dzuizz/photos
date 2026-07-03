@@ -14,6 +14,7 @@ export interface Frame {
   lens: string;
   series: string[];
   isFeatured: boolean;
+  blurDataURL?: string;
 }
 
 export interface Roll {

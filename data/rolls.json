@@ -19,7 +19,8 @@
         "series": [
           "dark"
         ],
-        "isFeatured": false
+        "isFeatured": false,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQBBv/EAB0QAAICAgMBAAAAAAAAAAAAAAABAgMEERIhMSP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A4dLfhhVgZlmHZY63H6VuuXJb6fpNLqT0AAAH/9k="
       },
       {
         "id": "in-02",
@@ -34,7 +35,8 @@
         "series": [
           "flying"
         ],
-        "isFeatured": true
+        "isFeatured": true,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQAEBv/EACIQAAIBBAIBBQAAAAAAAAAAAAECAwAEESEFEhMiMVFhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAQDBf/EABsRAQACAgMAAAAAAAAAAAAAAAEAAgMhBBES/9oADAMBAAIRAxEAPwBXmrC+vrhenjeJFJDDC4+s1z+Kb5XlJrOKHw+hXbo7/BPtqiSGclm2Ts07HVSZXJStuyPxwRXckcdxEkiE7VhkGtr8Zak6iA/KqqiqW1G+S1dk/9k="
       },
       {
         "id": "in-03",
@@ -49,7 +51,8 @@
         "series": [
           "flying"
         ],
-        "isFeatured": false
+        "isFeatured": false,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAgEAABBAEEAwAAAAAAAAAAAAABAAIRIQMEEkFxMVGB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAIBEf/aAAwDAQACEQMRAD8A6TsgAnzCmyZ2k0I6tRHUVbhHrdCWc7iav5CJzjFWW1rQ4gAVyt2eSOkIUH//2Q=="
       },
       {
         "id": "in-04",
@@ -64,7 +67,8 @@
         "series": [
           "flying"
         ],
-        "isFeatured": false
+        "isFeatured": false,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUE/8QAIBAAAgEDBAMAAAAAAAAAAAAAAQIAAxEhBBQxUTJxkf/EABYBAQEBAAAAAAAAAAAAAAAAAAECA//EABcRAQEBAQAAAAAAAAAAAAAAAAABEgL/2gAMAwEAAhEDEQA/ANSVygswAPoQ2sYYwJPNWpbzPHczmq7DLE5lWMJ2r7xu4kcEm9yfsQydV//Z"
       },
       {
         "id": "in-05",
@@ -80,7 +84,8 @@
           "flying",
           "architecture"
         ],
-        "isFeatured": false
+        "isFeatured": false,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIGBP/EAB4QAAICAgIDAAAAAAAAAAAAAAECABEFIQMxEiIy/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANozbBfRrqKc7yEKaoE731Js8z19GKzt49zKqU5oXtoSYDE9mEQf/9k="
       },
       {
         "id": "in-06",
@@ -95,7 +100,8 @@
         "series": [
           "transit"
         ],
-        "isFeatured": true
+        "isFeatured": true,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA8DASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAhEAACAgIBBAMAAAAAAAAAAAABAgADBBEFEyEjQTFRcf/EABUBAQEAAAAAAAAAAAAAAAAAAAAD/8QAFhEBAQEAAAAAAAAAAAAAAAAAABIT/9oADAMBAAIRAxEAPwDVbFBPxIrMPXqK3N9MgtjODvuD21KuRz9hq8eOrPv22hFp4ke+ytgAxIP3FvCWjyVo36sIQo//2Q=="
       },
       {
         "id": "in-07",
@@ -110,7 +116,8 @@
         "series": [
           "transit"
         ],
-        "isFeatured": false
+        "isFeatured": false,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA8DASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQGAv/EACMQAAEEAgEDBQAAAAAAAAAAAAEAAgMEBRExEoGRE0NhYsH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAAMBAAAAAAAAAAAAAAAAAAABEQL/2gAMAwEAAhEDEQA/AKduSruGxKQPsFoW4He6w99KZsitFTfNMbcsbG8dQaD2HPlFK5j7tiOgYHCIR7Fg7Dnnn9QWtSiaVg5Pi6r6/oPjJZ8uO/KXhw1GAgtgBLRodRJ0hCjWUiP/2Q=="
       },
       {
         "id": "in-08",
@@ -125,12 +132,13 @@
         "series": [
           "transit"
         ],
-        "isFeatured": false
+        "isFeatured": false,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EACIQAAIBBAEEAwAAAAAAAAAAAAECAwAEESESEyJRkQUx0f/EABQBAQAAAAAAAAAAAAAAAAAAAAH/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8ATB81cte8JOpKSGADDR8bpd5e3UrnqoV+u0KGGvdTXoeVsM/vP7RaIYB2u+T4NDyHRXBcFoVLoeW8nhjOzRWTNITt290URjUf/9k="
       },
       {
         "id": "in-09",
         "frameNum": "09",
-        "src": "/photos/indonesia/290626.jpg",
+        "src": "/photos/indonesia/0307-1.jpg",
         "caption": "meow",
         "location": "at home",
         "shootDate": "2026-06-20",
@@ -140,7 +148,8 @@
         "series": [
           "animals"
         ],
-        "isFeatured": true
+        "isFeatured": true,
+        "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUAA0DASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQGAwX/xAAgEAACAQQCAwEAAAAAAAAAAAABAwIABBFBITESEyKB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAwEC/8QAGhEAAwADAQAAAAAAAAAAAAAAAAECAyExEv/aAAwDAQACEQMRAD8A6VwJ3luxaMMGQfk4H5U65cmMJBxzzmnLG+M0EMn68AYBOutUwy8sUTEXLgz5GJy2d0GNXK0yelS7smlun491uWeQBlGJ42OqKK1fGAz/2Q=="
       }
     ]
   }

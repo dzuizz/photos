@@ -1,49 +1,37 @@
 import type { Metadata, Viewport } from "next";
-import { Courier_Prime } from "next/font/google";
 import { site } from "@/lib/site";
 import "./globals.css";
 
-const courier = Courier_Prime({
-  weight: ["400", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-  variable: "--font-courier",
-  display: "swap",
-});
-
 export const metadata: Metadata = {
   title: {
-    default: `${site.photographer} — cool pics`,
+    default: `${site.photographer} — Selected photographs`,
     template: `%s — ${site.brand}`,
   },
-  description: `photographic works by ${site.photographer}, presented as a 35mm film contact sheet. ${site.tagline}`,
+  description: `Ordinary places. Fleeting moments. Photographic works by ${site.photographer}: a collection of things worth noticing.`,
   authors: [{ name: site.photographer }],
   keywords: [
     "photography",
-    "film photography",
-    "35mm",
-    "contact sheet",
     "portfolio",
+    "landscape",
+    "street photography",
+    "nature",
     site.photographer,
   ],
   openGraph: {
-    title: `${site.photographer} — Darkroom Portfolio`,
-    description: site.tagline,
+    title: `${site.photographer} — A little closer.`,
+    description:
+      "Ordinary places. Fleeting moments. A collection of things worth noticing.",
     type: "website",
   },
 };
-
-export const viewport: Viewport = {
-  themeColor: "#1a1612",
-};
-
+export const viewport: Viewport = { themeColor: "#f5f3ed" };
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={courier.variable}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

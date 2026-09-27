@@ -33,6 +33,3 @@ next-env.d.ts.bak
 # local verification artifacts (Playwright screenshots/snapshots)
 /.playwright-mcp/
 /0*-*.png
-
-# full-res photo masters (downscaled copies are served from public/)
-/data/_originals/

@@ -1,8 +1,8 @@
 {
-  "name": "darkroom-portfolio",
+  "name": "dzuizz-photography",
   "version": "1.0.0",
   "private": true,
-  "description": "Darkroom Portfolio — a film contact sheet photography portfolio for Ahmad Dzuizz Annajib",
+  "description": "An editorial photography portfolio for Ahmad Dzuizz Annajib",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

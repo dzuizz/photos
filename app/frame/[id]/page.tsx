@@ -3,130 +3,64 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageShell from "@/components/PageShell";
-import {
-  getAllFrames,
-  getFrame,
-  getFrameNeighbours,
-  getSeries,
-} from "@/lib/data";
-import { formatLongDate, formatPrintDate } from "@/lib/format";
-import styles from "./frame.module.css";
+import { photographs } from "@/lib/photographs";
 
-interface FramePageProps {
-  params: { id: string };
-}
-
+type Props = { params: { id: string } };
 export function generateStaticParams() {
-  return getAllFrames().map((f) => ({ id: f.id }));
+  return photographs.map((p) => ({ id: p.id }));
 }
-
-export function generateMetadata({ params }: FramePageProps): Metadata {
-  const frame = getFrame(params.id);
-  if (!frame) return { title: "Frame not found" };
+export function generateMetadata({ params }: Props): Metadata {
+  const photo = photographs.find((p) => p.id === params.id);
   return {
-    title: `${frame.frameNum} — ${frame.caption}`,
-    description: `${frame.caption}, ${frame.location}. ${frame.filmStock}, ${frame.camera}.`,
+    title: photo?.title ?? "Photograph not found",
+    description: photo?.alt,
   };
 }
-
-export default function FramePage({ params }: FramePageProps) {
-  const frame = getFrame(params.id);
-  if (!frame) notFound();
-
-  const { prev, next } = getFrameNeighbours(params.id);
-  const rollLabel = frame.rollId.replace(/-/g, " ").toLowerCase();
-
+export default function PhotographPage({ params }: Props) {
+  const index = photographs.findIndex((p) => p.id === params.id);
+  if (index < 0) notFound();
+  const photo = photographs[index];
+  const previous =
+    photographs[(index - 1 + photographs.length) % photographs.length];
+  const next = photographs[(index + 1) % photographs.length];
   return (
-    <PageShell
-      subLabel={`${rollLabel} · FRAME ${frame.frameNum}`}
-      hint="ENLARGED FRAME · SINGLE EXPOSURE"
-    >
-      <article className={styles.detail}>
-        <Link href="/" className={styles.back}>
-          ← Back to contact sheet
+    <PageShell>
+      <article className="photograph-page">
+        <Link className="text-link" href="/#works">
+          ← All photographs
         </Link>
-
-        <div className={styles.layout}>
-          <div className={styles.imageWrap}>
-            <Image
-              className={styles.image}
-              src={frame.src}
-              alt={`${frame.caption}, ${frame.location}`}
-              width={frame.width}
-              height={frame.height}
-              sizes="(max-width: 899px) 92vw, 60vw"
-              priority
-            />
-            <span className={styles.imageTag}>
-              {frame.frameNum} · {formatPrintDate(frame.shootDate)}
+        <div className="standalone-image">
+          <Image
+            src={photo.image}
+            alt={photo.alt}
+            priority
+            placeholder="blur"
+            sizes="90vw"
+          />
+        </div>
+        <div className="standalone-caption">
+          <div>
+            <span className="eyebrow">
+              {photo.category} / {String(index + 1).padStart(2, "0")}
             </span>
+            <h1>{photo.title}</h1>
           </div>
-
-          <div className={styles.info}>
-            <p className={styles.caption}>{frame.caption}</p>
-
-            <dl className={styles.fields}>
-              <Field label="Location" value={frame.location} />
-              <Field label="Date" value={formatLongDate(frame.shootDate)} />
-              <Field label="Exposure" value={frame.filmStock} />
-              <Field label="Camera" value={frame.camera} />
-              <Field label="Lens" value={frame.lens} />
-              <Field label="Frame id" value={frame.id} />
-            </dl>
-
-            {frame.series.length > 0 && (
-              <div className={styles.seriesRow}>
-                <span className={styles.fieldLabel}>Series</span>
-                <span className={styles.seriesLinks}>
-                  {frame.series.map((slug) => {
-                    const s = getSeries(slug);
-                    return (
-                      <Link key={slug} href={`/series/${slug}`} className={styles.seriesLink}>
-                        {s?.name ?? slug}
-                      </Link>
-                    );
-                  })}
-                </span>
-              </div>
-            )}
-
-            <nav className={styles.stepper} aria-label="Adjacent frames">
-              {prev ? (
-                <Link href={`/frame/${prev.id}`} className={styles.step} rel="prev">
-                  ← {prev.frameNum}
-                </Link>
-              ) : (
-                <span className={styles.stepDisabled}>
-                  <span aria-hidden="true">←</span>
-                  <span className="srOnly">No earlier frame</span>
-                </span>
-              )}
-              <span className={styles.stepDivider} aria-hidden="true">
-                ✕
-              </span>
-              {next ? (
-                <Link href={`/frame/${next.id}`} className={styles.step} rel="next">
-                  {next.frameNum} →
-                </Link>
-              ) : (
-                <span className={styles.stepDisabled}>
-                  <span className="srOnly">No later frame</span>
-                  <span aria-hidden="true">→</span>
-                </span>
-              )}
-            </nav>
-          </div>
+          <nav aria-label="Adjacent photographs">
+            <Link
+              href={`/frame/${previous.id}`}
+              aria-label={`Previous photograph: ${previous.title}`}
+            >
+              ← Previous
+            </Link>
+            <Link
+              href={`/frame/${next.id}`}
+              aria-label={`Next photograph: ${next.title}`}
+            >
+              Next →
+            </Link>
+          </nav>
         </div>
       </article>
     </PageShell>
-  );
-}
-
-function Field({ label, value }: { label: string; value: string }) {
-  return (
-    <div className={styles.field}>
-      <dt className={styles.fieldLabel}>{label}</dt>
-      <dd className={styles.fieldValue}>{value}</dd>
-    </div>
   );
 }

@@ -1,25 +1,14 @@
-import { getSeriesList } from "@/lib/data";
-import ContactSheetHeader from "./ContactSheetHeader";
-import ContactSheetFooter from "./ContactSheetFooter";
-import styles from "./ContactSheet.module.css";
+import { GalleryFooter, GalleryHeader } from "./gallery/SiteChrome";
 
-interface PageShellProps {
-  children: React.ReactNode;
-  subLabel?: string;
-  hint?: string;
-}
-
-export default function PageShell({ children, subLabel, hint }: PageShellProps) {
+export default function PageShell({ children }: { children: React.ReactNode }) {
   return (
-    <main className={styles.page}>
-      <a href="#site-nav" className="skipLink">
-        Skip to navigation
+    <div className="site-wrap" id="top">
+      <a className="skipLink" href="#main">
+        Skip to content
       </a>
-      <div className={styles.sheet}>
-        <ContactSheetHeader subLabel={subLabel} />
-        {children}
-        <ContactSheetFooter seriesList={getSeriesList()} hint={hint} />
-      </div>
-    </main>
+      <GalleryHeader />
+      <main id="main">{children}</main>
+      <GalleryFooter />
+    </div>
   );
 }

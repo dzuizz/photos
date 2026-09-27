@@ -1,45 +1,47 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
-import { aboutContent } from "@/lib/content";
-import { site } from "@/lib/site";
-import styles from "./about.module.css";
-
-export const metadata: Metadata = {
-  title: "About",
-  description: `About ${site.photographer} — ${site.tagline}`,
-};
-
+import portrait from "@/pictures/pfp.jpeg";
+export const metadata: Metadata = { title: "About" };
 export default function AboutPage() {
   return (
-    <PageShell subLabel="ABOUT THE PHOTOGRAPHER" hint="ABOUT">
-      <article className={styles.about}>
-        <div className={styles.grid}>
-          <div className={styles.body}>
-            <h1 className={styles.heading}>{aboutContent.heading}</h1>
-            {aboutContent.paragraphs.map((para, i) => (
-              <p key={i} className={styles.para}>
-                {para}
-              </p>
-            ))}
-            <p className={styles.signoff}>— {site.photographer}</p>
-          </div>
-
-          <aside className={styles.annotations} aria-label="photographer details">
-            <span className={styles.annHead}>marginalia</span>
-            <dl className={styles.annList}>
-              {aboutContent.annotations.map((a) => (
-                <div key={a.label} className={styles.annRow}>
-                  <dt className={styles.annLabel}>{a.label}</dt>
-                  <dd className={styles.annValue}>{a.value}</dd>
-                </div>
-              ))}
-            </dl>
-            <Link href="/contact" className={styles.contactLink}>
-              order a print / commission:{' '}
+    <PageShell>
+      <article className="info-page photographer-page">
+        <div className="photographer-copy">
+          <span className="eyebrow">Behind the photographs</span>
+          <h1>
+            Hi, I’m <em>Dzuizz.</em>
+          </h1>
+          <p className="lede">
+            A photographer based in Singapore, noticing the little things along
+            the way.
+          </p>
+          <p className="lede">
+            This collection moves between landscapes, life on the street, and
+            the natural world. A place to pause, look closer, and find something
+            in the everyday.
+          </p>
+          <div className="info-links">
+            <Link className="text-link" href="/#works">
+              Explore the photographs ↗
             </Link>
-          </aside>
+            <Link className="text-link" href="/contact">
+              Get in touch ↗
+            </Link>
+          </div>
+          <span className="eyebrow">Singapore · Sony α6400</span>
         </div>
+        <figure className="photographer-portrait">
+          <Image
+            src={portrait}
+            alt="Ahmad Dzuizz Annajib holding a camera against colorful nighttime light trails"
+            placeholder="blur"
+            priority
+            sizes="(max-width: 800px) 88vw, 35vw"
+          />
+          <figcaption>Ahmad Dzuizz Annajib · Photographer</figcaption>
+        </figure>
       </article>
     </PageShell>
   );
